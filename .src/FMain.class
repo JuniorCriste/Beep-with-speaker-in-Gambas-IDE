@@ -1,0 +1,17 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+
+
+  Shell ("sudo modprobe pcspkr")
+  Shell ("echo 'Ola'")
+  Shell ("whoami")
+  Shell ("beep -f 500 -l 700")
+  Sleep 300
+  Shell ("beep -f 480 -l 400")
+
+
+End
+
